@@ -19,7 +19,7 @@ public class ZipMultipleFiles {
 		String sourceFile03Path = "C:\\Users\\vi\\Desktop\\test\\employees.json";
 		String targetFilePath = "C:\\Users\\vi\\Desktop\\test\\zipMultipleFiles01.zip";
 		zipMultipleFiles(targetFilePath, sourceFile01Path, sourceFile02Path, sourceFile03Path);
-		System.out.println("Files " + sourceFile01Path.substring(25) + ", " + sourceFile02Path.substring(25) + " and " + sourceFile03Path.substring(25) + " were Successfully Zipped");
+		System.out.println("The Files " + sourceFile01Path.substring(25) + ", " + sourceFile02Path.substring(25) + " and " + sourceFile03Path.substring(25) + " were Successfully Zipped");
 
 	}
 	
