@@ -15,7 +15,7 @@ public class ZipSingleFile {
 		String sourceFilePath = "C:\\Users\\vi\\Desktop\\test\\test.csv";
 		String targetFilePath = "C:\\Users\\vi\\Desktop\\test\\zipFile.zip";
 		zipSingleFile(sourceFilePath, targetFilePath);
-		System.out.println("File " + sourceFilePath.substring(25) + " was Successfully Zipped");
+		System.out.println("The File " + sourceFilePath.substring(25) + " was Successfully Zipped");
 
 	}
 	
