@@ -10,8 +10,12 @@ public class FindNewID {
 	public static void main(String[] args) {
 		List<Integer> l = Arrays.asList(2, 3, 6, 16, 7, 8, 9, 5, 4, 10, 11, 12, 13, 15, 1, 14);
 		ArrayList<Integer> al = new ArrayList<Integer>(l);
+		List<Integer> li = Arrays.asList(4, 5, 7, 9, 11, 15, 3, 5, 14, 10);
+		ArrayList<Integer> all = new ArrayList<Integer>(li);
 		System.out.println(al);
-		System.out.println(findEmptyCell(al));
+		System.out.println(findEmptyCell(all));
+		System.out.println(al);
+		System.out.println(findEmptyCell(all));
 
 	}
 	public static int findEmptyCell(ArrayList<Integer> al) {
